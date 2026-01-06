@@ -1,9 +1,10 @@
 import React from 'react'
+import FeaturedNews from '../layouts/FeaturedNews'
 
 const Home = () => {
   return (
     <>
-      <h1>home</h1>
+      <FeaturedNews/>
     </>
   )
 }

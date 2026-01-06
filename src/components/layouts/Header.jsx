@@ -27,7 +27,7 @@ const Header = () => {
             <Link to={"/"}><Image imgSrc={Logo} imgAlt="logo" className="h-22 w-auto" /></Link>
           </div>
           {/* Desktop Menu */}
-          <ul className="hidden md:flex items-center gap-x-8 text-[15px] font-medium">
+          <ul className="hidden md:flex items-center gap-x-10 text-[15px] font-medium">
             <li><Link className="hover:text-blue-600">Home</Link></li>
             <li><Link className="hover:text-blue-600">National</Link></li>
             <li><Link className="hover:text-blue-600">International</Link></li>
@@ -36,16 +36,16 @@ const Header = () => {
             <li><Link className="hover:text-blue-600">Latest News</Link></li>
           </ul>
           {/*  Icons start */}
-          <div className="hidden md:flex items-center gap-x-4">
+          <div className="hidden md:flex items-center ">
             {/* Search Box */}
-            <div className="relative">
+            {/* <div className="relative">
               <input
                 type="text"
                 placeholder="Search..."
                 className="border rounded-full pl-4 pr-10 py-1 text-sm outline-none focus:border-blue-500"
               />
               <CiSearch className="absolute right-3 top-1/2 -translate-y-1/2 text-xl text-blue-500 cursor-pointer" />
-            </div>
+            </div> */}
             {/* Date show */}
             <span className="text-sm text-gray-600">
               {dateFormat}

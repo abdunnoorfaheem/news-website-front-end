@@ -75,8 +75,8 @@ const FeaturedNews = () => {
                                 <p className="font-merriweather text-white md:w-[550px] my-4">
                                     Manchester City have confirmed defender Josko Gvardiol suffered a broken leg in Sunday's 1-1 draw.
                                 </p>
-                                <Link to="/newsDetails">
-                                    <button className="text-white font-merriweather bg-sky-800 px-8 py-2 rounded-2xl">
+                                <Link to={"/newsDetails"}>
+                                    <button className="text-white font-merriweather bg-sky-800 px-8 py-2 rounded-2xl cursor-pointer">
                                         Read More..
                                     </button>
                                 </Link>

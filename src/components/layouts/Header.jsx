@@ -3,7 +3,6 @@ import Container from "../Container";
 import Image from "../Image";
 import Logo from "/src/assets/newsLogo.png";
 import { Link } from "react-router-dom";
-import { CiSearch } from "react-icons/ci";
 import { FaBars } from "react-icons/fa";
 import { ImCross } from "react-icons/im";
 
@@ -28,7 +27,7 @@ const Header = () => {
           </div>
           {/* Desktop Menu */}
           <ul className="hidden md:flex items-center gap-x-10 text-[15px] font-medium">
-            <li><Link className="hover:text-blue-600">Home</Link></li>
+            <li><Link className="hover:text-blue-600" to={"/"}>Home</Link></li>
             <li><Link className="hover:text-blue-600">National</Link></li>
             <li><Link className="hover:text-blue-600">International</Link></li>
             <li><Link className="hover:text-blue-600">Sports</Link></li>

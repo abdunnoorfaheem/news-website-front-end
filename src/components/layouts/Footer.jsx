@@ -3,7 +3,7 @@ import Container from '../Container'
 import Image from '../Image'
 import Logo from "/src/assets/newsLogo.png"
 import { Link } from 'react-router-dom'
-import { FaFacebook,FaTwitter,FaInstagram,FaYoutube,FaPinterest} from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram, FaYoutube, FaPinterest } from "react-icons/fa";
 
 
 const Footer = () => {
@@ -39,11 +39,11 @@ const Footer = () => {
             <div className="md:flex justify-between items-center text-center md:text-left">
               <p className='font-merriweather font-medium py-3'>&copy;2026 All Rights Reserved by News Portal</p>
               <div className="flex gap-x-6 justify-center">
-               <FaFacebook/>
-               <FaTwitter />
-               <FaInstagram />
-               <FaYoutube />
-               <FaPinterest />
+                <Link><FaFacebook /></Link>
+                <Link><FaTwitter /></Link>
+                <Link><FaInstagram /></Link>
+                <Link><FaYoutube /></Link>
+                <Link><FaPinterest /></Link>
               </div>
             </div>
           </Container>

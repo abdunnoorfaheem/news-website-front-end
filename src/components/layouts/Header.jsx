@@ -19,10 +19,10 @@ const Header = () => {
   });
 
   return (
-    <section>
+    <header>
       <Container>
         <div className="flex items-center justify-between font-merriweather px-5 md:px-0">
-          {/* News Logo */}
+         
           <div className="py-4">
             <Link to={"/"}><Image imgSrc={Logo} imgAlt="logo" className="h-22 w-auto" /></Link>
           </div>
@@ -36,17 +36,7 @@ const Header = () => {
             <li><Link className="hover:text-blue-600">Latest News</Link></li>
           </ul>
           {/*  Icons start */}
-          <div className="hidden md:flex items-center ">
-            {/* Search Box */}
-            {/* <div className="relative">
-              <input
-                type="text"
-                placeholder="Search..."
-                className="border rounded-full pl-4 pr-10 py-1 text-sm outline-none focus:border-blue-500"
-              />
-              <CiSearch className="absolute right-3 top-1/2 -translate-y-1/2 text-xl text-blue-500 cursor-pointer" />
-            </div> */}
-            {/* Date show */}
+          <div className="hidden md:flex items-center "> 
             <span className="text-sm text-gray-600">
               {dateFormat}
             </span>
@@ -73,7 +63,7 @@ const Header = () => {
         )}
 
       </Container>
-    </section>
+    </header>
   );
 };
 
